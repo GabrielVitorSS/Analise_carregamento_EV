@@ -23,10 +23,15 @@ The data has been loaded into a PostgreSQL database with a table named `charging
 |`weekdays_plugin`| The day of the week that the session started|`VARCHAR`|
 
 ## Perguntas e respostas
-Aqui estão 3 perguntas que devem ser respondidas usando a tabela acima.
+Aqui estão 3 perguntas e seus respectivos resultados que devem ser respondidas utilizando a tabela acima.
 ### Questão 1
 Encontre o número de indivíduos únicos que utilizam as estações de carregamento compartilhadas de cada garagem. A saída deve conter duas colunas: garage_id e num_unique_users. Classifique seus resultados pelo número de usuários únicos, do maior para o menor. Salve o resultado como unique_users_per_garage.
+![F233D759-98BD-4B40-BBCA-EE6E8D7D3A51](https://github.com/user-attachments/assets/5034ec1f-a84b-45b5-a79a-c3d296f3fae3)
+
 ### Questão 2
 Encontre os 10 horários de início de carregamento mais populares (por dia da semana e hora de início) para sessões que usam estações de carregamento compartilhadas. Seu resultado deve conter três colunas: weekdays_plugin, start_plugin_hour e uma coluna chamada num_charging_sessions contendo o número de plugins naquele dia da semana e naquela hora. Classifique seus resultados do maior para o menor número de sessões. Salve o resultado como most_popular_shared_start_times.
+![180B2458-D918-4D8B-AEB8-70F9C31E8C7C](https://github.com/user-attachments/assets/afcb8e03-b5cc-47ce-b57d-18437f83b79f)
+
 ### Questão 3
 Encontre os usuários cuja duração média de carregamento é superior a 10 horas ao usar estações de carregamento compartilhadas. Seu resultado deve conter duas colunas: user_id e avg_charging_duration. Classifique seu resultado da maior para a menor duração média de carregamento. Salve o resultado como long_duration_shared_users.
+![8A863D9B-69BC-4C72-A7DE-684888F1FD58](https://github.com/user-attachments/assets/1c608ea8-2ade-48f8-8a28-1fb39e30dee2)
